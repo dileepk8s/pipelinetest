@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('welcome') {
       steps {
-          echo "welcome dileep this data comming from develop branch"
+          echo "welcome dileep this data comming from hotfix brach"
       }
     }
   }
