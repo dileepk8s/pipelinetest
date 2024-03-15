@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage ('welcome') {
       steps {
-          echo "welcome to none jenkins pipeline"
-          sh 'hostname -i'
+          echo "welcome to none jenkins pipeline welcome dileep"
       }
     }
   }
