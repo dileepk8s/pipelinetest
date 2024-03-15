@@ -4,6 +4,7 @@ pipeline {
     stage ('welcome') {
       steps {
           echo "welcome to none jenkins pipeline"
+          sh 'hostname -i'
       }
     }
   }
